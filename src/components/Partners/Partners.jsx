@@ -69,7 +69,7 @@ const Partners = () => {
             data-aos="zoom-in"
           >
             <div className="wolfram">
-              <img src={wolfram}></img>
+              <img src={wolfram} alt=" "/>
             </div>
             <p>Gold Partner</p>
           </a>
