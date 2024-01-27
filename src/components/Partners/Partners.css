@@ -55,10 +55,19 @@
     width: 15rem;
 }
 
-.wolfram img{
+.gold_logo_wrapper {
+    background-color: #ffff;
+    border-radius: 7px;
     width: 15rem;
     height: 5rem;
-    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gold_logo_wrapper img{
+    object-fit: cover;
+    width: 95%;
 }
 
 @media only screen and(max-width:450px) {
