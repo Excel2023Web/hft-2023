@@ -6,7 +6,8 @@ import devfolio from "../../assets/png/devfolio.png";
 import polygon from "../../assets/png/polygon.png";
 import Stars from "../Stars/Stars";
 import ksum from '../../assets/png/ksum.png'
-import wolfram from '../../assets/png/wolfram1.png'
+// import wolfram from '../assets/png/wolfram.png'
+import wolfram from '../../assets/png/wolfram.png'
 const Partners = () => {
   return (
     <div className="partners__main__contain">
