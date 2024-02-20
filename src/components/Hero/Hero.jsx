@@ -8,6 +8,7 @@ import { FaCalendarAlt } from "react-icons/fa";
 import Marquee from "react-fast-marquee";
 import Aos from "aos";
 import { useScreenWidth } from "../../hooks/useScreenWidth";
+import zilckathon from '../../assets/svg/zilckathon.svg'
 const calculateTimeLeft = () => {
   let difference = +new Date("2024-02-25T11:00:00+05:30") - +new Date(); // MM/DD/YYYY
   let timeLeft = {};
@@ -63,6 +64,7 @@ const Hero = () => {
       <div className="hero__container">
         {width >= 1000 ? <Stars /> : null}
         <div className="hero__content_part">
+          <img src={zilckathon} alt="" className="zilckathon" />
           <img src={logo} alt="" data-aos="fade-up" />
           <p
             className="hero__location__info"
