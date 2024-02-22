@@ -29,7 +29,7 @@
     color: #ffff;
     font-weight: 600;
 }
-.partners__titlep>a>img{
+.partners__titlep>a>img {
     width: 20rem;
     height: 9rem;
     border-radius: 15px;
@@ -51,7 +51,7 @@
     font-size: 1rem;
     color: #ffff;
 }
-.partners__gold>a>img{
+.partners__gold>a>img {
     width: 15rem;
 }
 
@@ -64,14 +64,18 @@
     justify-content: center;
     align-items: center;
 }
-
+.ghub__logo{
+    height: 5rem;
+    width: 7rem;
+    border-radius: 15px;
+}
 .gold_logo_wrapper img{
     object-fit: cover;
     width: 95%;
 }
 
 @media only screen and(max-width:450px) {
-    .partners__titlep>a>img{
+    .partners__titlep>a>img {
         width: 10rem;
         height: 6rem;
     }
