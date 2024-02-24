@@ -83,7 +83,7 @@ const Partners = () => {
             data-aos="zoom-in"
           >
             <img src={expert} style={{width:"10rem"}} className="ghub__logo" alt="GITHUB LOGO" />
-            <p>Community Partner Partner</p>
+            <p>Community Partner</p>
           </a>
         </div>
       </div>
